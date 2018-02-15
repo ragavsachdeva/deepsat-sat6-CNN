@@ -21,7 +21,7 @@ Step 1: Dump all the rows in the csv file(s) into actual images.
 * Convert training data to images using $```python csv2images.py data/CSVs/X_train_sat6.csv -o data/training/training_images```.
 * Convert testing data to images using $```python csv2images.py data/CSVs/X_test_sat6.csv -o data/testing/testing_images```.
 
-Step 2: Modify the labels' csv files to generate annotations.
+Step 2: Generate annotations using labels' csv files.
 
 * Generate annotations for training data using $```python annotations.py data/CSVs/y_train_sat6.csv -o data/training```.
 * Generate annotations for testing data using $```python annotations.py data/CSVs/y_test_sat6.csv -o data/testing```.
