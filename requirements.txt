@@ -1,3 +1,4 @@
+torch
 pandas
 scikit-image
 imageio

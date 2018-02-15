@@ -78,7 +78,7 @@ class Net(nn.Module):
 		return F.log_softmax(out, dim=1)
 
 # Hyper Parameters
-num_epochs = 1
+num_epochs = 5
 batch_size = 100
 learning_rate = 0.001
 
@@ -144,4 +144,4 @@ train()
 test()
 
 #Save the Trained Model
-torch.save(model.state_dict(), 'cnn.pkl')
+torch.save(model.state_dict(), 'deepsat-cnn.pkl')
