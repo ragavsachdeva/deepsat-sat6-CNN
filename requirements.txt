@@ -1,0 +1,5 @@
+pandas
+scikit-image
+imageio
+tensorflow
+tensorboardX
