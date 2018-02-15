@@ -4,3 +4,5 @@ scikit-image
 imageio
 tensorflow
 tensorboardX
+numpy
+matplotlib
